@@ -327,6 +327,9 @@
                   {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
                 </li>
               {%- endfor -%}
+               <li class="list-payment__item">
+                <img src="{{  'cod.svg' | asset_url  }}" alt="COD image" width="38" height="24">
+               </li>
             </ul>
           </div>
         {%- endif -%}
